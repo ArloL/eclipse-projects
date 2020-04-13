@@ -11,9 +11,11 @@ jobs:
         with:
           persist-credentials: false
       - run: sh build-catalog.sh
-      - uses: JamesIves/github-pages-deploy-action@releases/v3
+      - uses: github-actions-x/commit@v2.5
         with:
-          DEBUG: true
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: .
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: 'Update project catalog'
+          files: arlos-projects.setup
+          name: Arlo O'Keeffe
+          email: tiger@k5d.de
