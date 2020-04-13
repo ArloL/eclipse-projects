@@ -504,6 +504,14 @@
       <requirement
           name="org.eclipse.tm.terminal.feature.feature.group"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="YAML Editor">
+      <requirement
+          name="de.jcup.yamleditor.feature.group"/>
+      <repository
+          url="https://dl.bintray.com/de-jcup/yamleditor"/>
+    </setupTask>
     <description></description>
   </setupTask>
   <description>Arlo's Projects</description>
