@@ -2,13 +2,13 @@ name: GitHub Pages Deploy
 on:
   push:
     branches:
-      - master
+    - master
 jobs:
   github-pages-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-      	  sh build-catalog.sh
-      	  git commit -m "Update project catalog" arlos-projects.setup
-      	  git push
+    - uses: actions/checkout@v2
+    - run: |-
+        sh build-catalog.sh
+        git commit -m "Update project catalog" arlos-projects.setup
+        git push
