@@ -25,12 +25,6 @@
         <requirement
             name="org.eclipse.oomph.setup.maven.feature.group"/>
       </setupTask>
-      <setupTask
-          xsi:type="setup.p2:P2Task"
-          label="ShellEd">
-        <requirement
-            name="org.eclipse.dltk.sh.feature.group"/>
-      </setupTask>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
