@@ -341,6 +341,18 @@
             xsi:type="setup:PreferenceTask"
             key="/instance/org.eclipse.wst.css.core/outputCodeset"
             value="UTF-8"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.css.core/indentationChar"
+            value="space"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.css.core/indentationSize"
+            value="4"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.css.core/lineWidth"
+            value="80"/>
       </setupTask>
     </setupTask>
     <setupTask
@@ -353,6 +365,22 @@
             xsi:type="setup:PreferenceTask"
             key="/instance/org.eclipse.wst.html.core/outputCodeset"
             value="UTF-8"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.html.core/indentationChar"
+            value="space"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.html.core/indentationSize"
+            value="4"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.html.core/lineWidth"
+            value="80"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.html.core/splitMultiAttrs"
+            value="true"/>
       </setupTask>
     </setupTask>
     <setupTask
@@ -417,6 +445,10 @@
             xsi:type="setup:PreferenceTask"
             key="/instance/org.eclipse.wst.xml.core/indentationChar"
             value="space"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.wst.xml.core/lineWidth"
+            value="80"/>
       </setupTask>
     </setupTask>
   </setupTask>
