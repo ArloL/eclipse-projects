@@ -474,8 +474,8 @@
     </setupTask>
     <description></description>
   </setupTask>
+  <project href="https://arlol.github.io/oomph-setups/projects/empty.setup#/"/>
+  <project href="https://arlol.github.io/oomph-setups/projects/oomph-setups.setup#/"/>
+  <project href="https://arlol.github.io/oomph-setups/projects/spring-boot-quickstart.setup#/"/>
   <description>Arlo's Projects</description>
-    <project href="https://arlol.github.io/oomph-setups/projects/empty.setup#/"/>
-    <project href="https://arlol.github.io/oomph-setups/projects/oomph-setups.setup#/"/>
-    <project href="https://arlol.github.io/oomph-setups/projects/spring-boot-quickstart.setup#/"/>
 </setup:ProjectCatalog>
