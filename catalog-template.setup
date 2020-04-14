@@ -512,6 +512,13 @@
       <repository
           url="https://dl.bintray.com/de-jcup/yamleditor"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        id="software.wtp"
+        label="Eclipse Web Developer Tools">
+      <requirement
+          name="org.eclipse.wst.web_ui.feature.feature.group"/>
+    </setupTask>
     <description></description>
   </setupTask>
   <description>Arlo's Projects</description>
