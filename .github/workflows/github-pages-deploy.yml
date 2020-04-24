@@ -12,6 +12,6 @@ jobs:
     - uses: github-actions-x/commit@v2.5
       with:
         commit-message: Update project catalog
-        files: arlos-projects.setup
+        files: eclipse-projects.setup
         name: Arlo O'Keeffe
         email: tiger@k5d.de
