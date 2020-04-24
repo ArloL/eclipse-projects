@@ -473,7 +473,7 @@
     <setupTask
         xsi:type="setup:EclipseIniTask"
         option="-Doomph.redirection.arlosProjectCatalog"
-        value="=index:/redirectable.projects.setup->https://arlol.github.io/oomph-setups/arlos-projects.setup"
+        value="=index:/redirectable.projects.setup->https://arlol.github.io/eclipse-projects/eclipse-projects.setup"
         vm="true">
       <description>Add redirect</description>
     </setupTask>
@@ -522,9 +522,9 @@
     <description></description>
   </setupTask>
   <description>Arlo's Projects</description>
-  <project href="https://arlol.github.io/oomph-setups/projects/empty.setup#/"/> ;
-  <project href="https://arlol.github.io/oomph-setups/projects/native-image-maven-plugin.setup#/"/> ;
-  <project href="https://arlol.github.io/oomph-setups/projects/newlinechecker.setup#/"/> ;
-  <project href="https://arlol.github.io/oomph-setups/projects/oomph-setups.setup#/"/> ;
-  <project href="https://arlol.github.io/oomph-setups/projects/spring-boot-quickstart.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/empty.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/native-image-maven-plugin.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/newlinechecker.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/oomph-setups.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/spring-boot-quickstart.setup#/"/> ;
 </setup:ProjectCatalog>
