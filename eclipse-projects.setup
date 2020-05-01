@@ -528,4 +528,5 @@
   <project href="https://arlol.github.io/eclipse-projects/projects/native-image-maven-plugin.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/newlinechecker.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/spring-boot-quickstart.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/wait-for-ports.setup#/"/> ;
 </setup:ProjectCatalog>
