@@ -1,6 +1,7 @@
 # Arlo's Eclipse project catalog
 
 This is my project catalog for the Eclipse Installer.
+
 Add it to your Installer by adding this line to `eclipse-inst.ini`:
 
 ```
