@@ -524,6 +524,7 @@
   <description>Arlo's Projects</description>
   <project href="https://arlol.github.io/eclipse-projects/projects/eclipse-projects.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/empty.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/mvnx.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/native-image-maven-plugin.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/newlinechecker.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/spring-boot-quickstart.setup#/"/> ;
