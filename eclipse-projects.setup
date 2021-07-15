@@ -510,7 +510,7 @@
       <requirement
           name="de.jcup.yamleditor.feature.group"/>
       <repository
-          url="https://de-jcup.github.io/update-site-eclipse-yaml-editor/update-site"/>
+          url="https://dl.bintray.com/de-jcup/yamleditor"/>
     </setupTask>
     <setupTask
         xsi:type="setup.p2:P2Task"
