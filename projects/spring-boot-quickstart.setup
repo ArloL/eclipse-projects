@@ -7,7 +7,7 @@
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
     name="spring-boot-quickstart"
     label="">
-  <stream name="master"
+  <stream name="main"
       label="">
     <setupTask
         xsi:type="setup:CompoundTask"

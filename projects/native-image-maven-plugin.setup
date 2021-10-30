@@ -9,7 +9,7 @@
     xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
     name="native-image-maven-plugin"
     label="">
-  <stream name="master"
+  <stream name="main"
       label="">
     <setupTask
         xsi:type="setup:CompoundTask"

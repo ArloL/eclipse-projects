@@ -5,9 +5,9 @@
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     name="empty"
     label="">
-  <stream name="master"
-      label="master">
-    <description>master</description>
+  <stream name="main"
+      label="">
+    <description></description>
   </stream>
   <description></description>
 </setup:Project>
