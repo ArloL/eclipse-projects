@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: sh build-catalog.sh
-    - uses: github-actions-x/commit@v2.5
+    - uses: github-actions-x/commit@v2.8
       with:
         commit-message: Update project catalog
         files: eclipse-projects.setup
