@@ -23,7 +23,7 @@
       </setupTask>
       <setupTask
           xsi:type="setup:ResourceCreationTask"
-          targetURL="${workspace.location}/${scope.project.name}/.project"
+          targetURL="file://${workspace.location}/${scope.project.name}/.project"
           encoding="UTF-8">
         <description></description>
         <content>
