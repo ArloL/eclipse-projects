@@ -534,6 +534,14 @@
       <requirement
           name="org.eclipse.wst.web_ui.feature.feature.group"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="Bash Editor">
+      <requirement
+          name="de.jcup.basheditor.feature.group"/>
+      <repository
+          url="https://de-jcup.github.io/update-site-eclipse-bash-editor/update-site"/>
+    </setupTask>
     <description></description>
   </setupTask>
   <description>Arlo's Projects</description>
