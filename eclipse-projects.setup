@@ -564,4 +564,5 @@
   <project href="https://arlol.github.io/eclipse-projects/projects/spring-security-drupal-password-encoder.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/thingies.setup#/"/> ;
   <project href="https://arlol.github.io/eclipse-projects/projects/wait-for-ports.setup#/"/> ;
+  <project href="https://arlol.github.io/eclipse-projects/projects/website-janitor.setup#/"/> ;
 </setup:ProjectCatalog>
