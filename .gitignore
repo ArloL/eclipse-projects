@@ -72,3 +72,5 @@ local.properties
 !.settings/
 .settings/*
 !.settings/org.eclipse.core.resources.prefs
+
+eclipse-projects.setup
