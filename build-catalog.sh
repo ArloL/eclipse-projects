@@ -14,4 +14,5 @@ find projects -name "*.setup" -print0 \
     	echo '  <project href="https://arlol.github.io/eclipse-projects/'"%"'#/"/>' \
     		>> eclipse-projects.setup \;
 
+echo "<!-- $(date) -->" >> eclipse-projects.setup
 echo '</setup:ProjectCatalog>' >> eclipse-projects.setup
