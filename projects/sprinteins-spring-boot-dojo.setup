@@ -57,7 +57,7 @@
         name="Projects">
       <setupTask
           xsi:type="git:GitCloneTask"
-          location="${workspace.location}/${scope.project.name}"
+          location="${workspace.location}/readnow"
           remoteURI="https://gitea.sprinteins.com/DomainDevelopment/workshop-java-spring-boot.git"
           pushURI="">
         <description></description>
@@ -65,7 +65,7 @@
       <setupTask
           xsi:type="projects:ProjectsImportTask">
         <sourceLocator
-            rootFolder="${workspace.location}/${scope.project.name}"
+            rootFolder="${workspace.location}/readnow"
             locateNestedProjects="true"/>
       </setupTask>
     </setupTask>
