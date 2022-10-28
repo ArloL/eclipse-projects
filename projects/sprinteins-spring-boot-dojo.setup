@@ -10,7 +10,7 @@
     xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/projects/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Projects.ecore"
     name="sprinteins-spring-boot-dojo"
     label="">
-  <stream name="master"
+  <stream name="main"
       label="">
     <setupTask
         xsi:type="setup:CompoundTask"
