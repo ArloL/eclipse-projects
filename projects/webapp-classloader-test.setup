@@ -26,6 +26,9 @@
         <sourceLocator
             rootFolder="${workspace.location}/${scope.project.name}"
             locateNestedProjects="true"/>
+        <sourceLocator
+            rootFolder="${workspace.location}/${scope.project.name}/test-projects/"
+            locateNestedProjects="true"/>
       </setupTask>
     </setupTask>
     <description></description>
