@@ -40,14 +40,6 @@
             url="https://download.springsource.com/release/TOOLS/sts4/update/latest/"/>
         <description></description>
       </setupTask>
-      <setupTask
-          xsi:type="setup.p2:P2Task"
-          label="m2e-apt">
-        <requirement
-            name="org.jboss.tools.maven.apt.feature.feature.group"/>
-        <repository
-            url="http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/"/>
-      </setupTask>
     </setupTask>
     <description></description>
   </stream>
