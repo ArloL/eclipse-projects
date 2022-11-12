@@ -43,6 +43,13 @@
             url="https://download.springsource.com/release/TOOLS/sts4/update/latest/"/>
         <description></description>
       </setupTask>
+      <setupTask
+          xsi:type="setup.p2:P2Task">
+        <requirement
+            name="org.projectlombok.feature.feature.group"/>
+        <repository
+            url="https://projectlombok.org/p2"/>
+      </setupTask>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
