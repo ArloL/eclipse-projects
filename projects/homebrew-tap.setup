@@ -15,14 +15,21 @@
         xsi:type="setup:CompoundTask"
         name="Projects">
       <setupTask
+          xsi:type="git:GitCloneTask"
+          location="${workspace.location}/${scope.project.name}"
+          remoteURI="https://github.com/ArloL/${scope.project.name}.git"
+          pushURI="">
+        <description></description>
+      </setupTask>
+      <setupTask
           xsi:type="setup:ResourceCreationTask"
-          targetURL="file://${user.home}/.eclipse/org.eclipse.oomph.setup/setups/.project"
+          targetURL="file://${workspace.location}/${scope.project.name}/.project"
           encoding="UTF-8">
         <description></description>
         <content>
           &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
           &lt;projectDescription>
-          	&lt;name>${user.name}-setups&lt;/name>
+          	&lt;name>${scope.project.name}&lt;/name>
           	&lt;comment>&lt;/comment>
           	&lt;projects>
           	&lt;/projects>
@@ -33,13 +40,6 @@
           &lt;/projectDescription>
 
         </content>
-      </setupTask>
-      <setupTask
-          xsi:type="git:GitCloneTask"
-          location="${workspace.location}/${scope.project.name}"
-          remoteURI="https://github.com/ArloL/${scope.project.name}.git"
-          pushURI="">
-        <description></description>
       </setupTask>
       <setupTask
           xsi:type="projects:ProjectsImportTask">
