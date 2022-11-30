@@ -44,7 +44,9 @@
         <description></description>
       </setupTask>
       <setupTask
-          xsi:type="setup.p2:P2Task">
+          xsi:type="setup.p2:P2Task"
+          id="software.lombok"
+          label="Lombok">
         <requirement
             name="org.projectlombok.feature.feature.group"/>
         <repository
