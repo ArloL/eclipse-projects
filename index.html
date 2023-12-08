@@ -9,5 +9,7 @@
   <p>This is my project catalog for the Eclipse Installer.</p>
   <p>Add it to your Installer by adding this line to <code>eclipse-inst.ini</code>:</p>
   <pre><code>-Doomph.redirection.arlosProjectCatalog=index:/redirectable.projects.setup->https://arlol.github.io/eclipse-projects/eclipse-projects.setup</code></pre>
+  <p>On macOS this does the trick:</p>
+  <pre><code>echo "-Doomph.redirection.arlosProjectCatalog=index:/redirectable.projects.setup->https://arlol.github.io/eclipse-projects/eclipse-projects.setup" >> /Applications/Eclipse\ Installer.app/Contents/Eclipse/eclipse-inst.ini</code></pre>
 </body>
 </html>
