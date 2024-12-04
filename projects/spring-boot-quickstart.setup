@@ -37,7 +37,7 @@
         <requirement
             name="org.springframework.tooling.ls.eclipse.gotosymbol"/>
         <repository
-            url="https://download.springsource.com/release/TOOLS/sts4/update/latest/"/>
+            url="https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/latest/"/>
         <description></description>
       </setupTask>
     </setupTask>
