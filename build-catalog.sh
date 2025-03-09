@@ -7,6 +7,8 @@ set -o xtrace
 hash ghead 2>/dev/null && head="ghead" || head="head"
 hash gxargs 2>/dev/null && xargs="gxargs" || xargs="xargs"
 
+mkdir -p _site
+
 {
     ${head} -n -1 catalog-template.setup
 
@@ -19,4 +21,7 @@ hash gxargs 2>/dev/null && xargs="gxargs" || xargs="xargs"
 
     echo '</setup:ProjectCatalog>'
 
-} > eclipse-projects.setup
+} > _site/eclipse-projects.setup
+
+cp index.html _site/
+cp -R projects _site/
