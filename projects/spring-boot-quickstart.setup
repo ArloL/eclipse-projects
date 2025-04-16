@@ -40,6 +40,15 @@
             url="https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/latest/"/>
         <description></description>
       </setupTask>
+      <setupTask
+          xsi:type="setup.p2:P2Task"
+          id="software.lombok"
+          label="Lombok">
+        <requirement
+            name="org.projectlombok.feature.feature.group"/>
+        <repository
+            url="https://projectlombok.org/p2"/>
+      </setupTask>
     </setupTask>
     <description></description>
   </stream>
