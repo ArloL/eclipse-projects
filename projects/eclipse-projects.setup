@@ -58,21 +58,12 @@
       </setupTask>
       <setupTask
           xsi:type="setup:ResourceCreationTask"
-          targetURL="file://${workspace.location}/${scope.project.name}"
+          targetURL="file://${workspace.location}/${scope.project.name}/.settings/org.eclipse.core.resources.prefs"
           encoding="UTF-8">
         <description></description>
         <content>
-          &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
-          &lt;projectDescription>
-          	&lt;name>${user.name}-setups&lt;/name>
-          	&lt;comment>&lt;/comment>
-          	&lt;projects>
-          	&lt;/projects>
-          	&lt;buildSpec>
-          	&lt;/buildSpec>
-          	&lt;natures>
-          	&lt;/natures>
-          &lt;/projectDescription>
+          eclipse.preferences.version=1
+          encoding/&lt;project>=UTF-8
 
         </content>
       </setupTask>
