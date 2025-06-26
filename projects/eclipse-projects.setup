@@ -57,17 +57,6 @@
         <description></description>
       </setupTask>
       <setupTask
-          xsi:type="setup:ResourceCreationTask"
-          targetURL="file://${workspace.location}/${scope.project.name}/.settings/org.eclipse.core.resources.prefs"
-          encoding="UTF-8">
-        <description></description>
-        <content>
-          eclipse.preferences.version=1
-          encoding/&lt;project>=UTF-8
-
-        </content>
-      </setupTask>
-      <setupTask
           xsi:type="projects:ProjectsImportTask">
         <sourceLocator
             rootFolder="${workspace.location}/${scope.project.name}"
