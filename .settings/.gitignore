@@ -7,3 +7,5 @@
 !/org.eclipse.jdt.ui.prefs
 
 # Add custom ignores after this line to be preserved during automated updates
+
+!/org.eclipse.core.resources.prefs
