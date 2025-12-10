@@ -513,12 +513,14 @@
   <setupTask
       xsi:type="setup:CompoundTask"
       name="Additional Software">
+      <!-- This does not work with Eclipse 2025-12. Testing.
     <setupTask
         xsi:type="setup.p2:P2Task"
         label="TM Terminal">
       <requirement
           name="org.eclipse.tm.terminal.feature.feature.group"/>
     </setupTask>
+    -->
     <setupTask
         xsi:type="setup.p2:P2Task"
         label="YAML Editor">
